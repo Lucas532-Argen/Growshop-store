@@ -1,12 +1,13 @@
-
 .container {
     text-align: center;
 }
 
 /* encabezado */
 .header {
-    background-color: #333; /* color */
-    color: #fff; /* color*/
+    background-color: #333;
+    /* color */
+    color: #fff;
+    /* color*/
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -23,27 +24,34 @@
     align-items: center;
     gap: 20px;
 }
+
 /*productos*/
 .navbar-button {
-    color: #fff; /* botón de navegación */
+    color: #fff;
+    /* botón de navegación */
 }
+
 /*lista productos*/
 .menu-item {
-    background-color: #fff; 
-    color: #333; /* color del texto */
-    transition: background-color 0.5s, color 0.5s; 
+    background-color: #fff;
+    color: #333;
+    /* color del texto */
+    transition: background-color 0.5s, color 0.5s;
 }
 
 .menu-item:hover {
-    background-color: #333; /* fondo en hover */
-    color: #fff; /*  texto en hover */
+    background-color: #333;
+    /* fondo en hover */
+    color: #fff;
+    /*  texto en hover */
 }
 
 
 
 .CartWidgett {
     font-size: 18px;
-    color: #fff; /* carrito */
+    color: #fff;
+    /* carrito */
 }
 
 /* cuerpo */
@@ -54,8 +62,7 @@
 
 /* mensaje de bienvenida */
 .welcome-message {
+    text-align: center;
     font-size: 24px;
     margin-top: 20px;
 }
-
-

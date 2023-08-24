@@ -5,8 +5,6 @@ import React from 'react'
 const cartwidget = () => {
     return (
         <div>
-
-
             <SpinnerIcon />
         </div>
 

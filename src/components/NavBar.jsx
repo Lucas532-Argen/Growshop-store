@@ -31,14 +31,14 @@ const NavBar = () => {
                 </nav>
                 
                 
-                <div className="CartWidgett"><span class="material-symbols-outlined">
+                <div className="CartWidgett"><Cartwidget/><span class="material-symbols-outlined">
                 shopping_cart_checkout
             </span>8</div>
             </header>
 
             {/* body */}
             <div className="listcontainer">
-                <h1 className="welcome-message">Bienvenidos a mi growshop</h1>
+                <h1 className="welcome-message"></h1>
                 {/* lista de productos */}
             </div>
         </div>
