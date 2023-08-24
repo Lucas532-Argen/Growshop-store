@@ -6,7 +6,7 @@ export const App = () => {
   return (
     <>
     <NavBar/>
-    <Itemlistcontainer/>
+    <Itemlistcontainer greeting={"Bienvenido a tu Growshop-Online"}/>
     
       
     </>
