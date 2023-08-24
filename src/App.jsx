@@ -1,4 +1,4 @@
-import Itemlistcontainer from "./components/Itemlistcontainer"
+import Itemlistcontainer from "./components/itemlistcontainer"
 import NavBar from "./components/NavBar"
 
 
