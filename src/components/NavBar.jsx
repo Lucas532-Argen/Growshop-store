@@ -1,9 +1,44 @@
-import React from 'react'
+import React from 'react';
+import {
+    Menu,
+    MenuButton,
+    MenuList,
+    MenuItem,
+} from '@chakra-ui/react';
+
 
 const NavBar = () => {
-  return (
-    <div>NavBar</div>
-  )
+    return (
+        <div className="container">
+            {/* header */}
+            <header className="header">
+                <div className="brand">
+                    <h3>Mi GrowShop</h3> </div>
+                <nav className="navbar">
+                    <Menu>
+                        <MenuButton className="navbar-button">
+                            Productos
+                        </MenuButton>
+                        <MenuList className="menu-list">
+                            <MenuItem className="menu-item">Plantas</MenuItem>
+                            <MenuItem className="menu-item">Semillas</MenuItem>
+                            <MenuItem className="menu-item">Carpas</MenuItem>
+                            <MenuItem className="menu-item">Luces</MenuItem>
+                        </MenuList>
+
+
+                    </Menu>
+                </nav>
+                <div className="cartwidget">Carrito</div>
+            </header>
+
+            {/* body */}
+            <div className="listcontainer">
+                <h1 className="welcome-message">Bienvenidos a mi growshop</h1>
+                {/* lista de productos */}
+            </div>
+        </div>
+    );
 }
 
-export default NavBar
+export default NavBar;
