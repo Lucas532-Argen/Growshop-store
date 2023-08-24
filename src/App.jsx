@@ -1,12 +1,10 @@
-import componenteA  from "./components/componenteA"
-import componenteB from "./components/componenteB"
+import NavBar from "./components/NavBar"
 
 export const App = () => {
   return (
     <>
-      <div>App</div>
-      <componenteA />
-      <componenteB />
+    <NavBar/>
+      
     </>
   )
 }
