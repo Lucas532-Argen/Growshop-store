@@ -5,7 +5,7 @@ import {
     MenuList,
     MenuItem,
 } from '@chakra-ui/react';
-import cartwidget from './cartwidget';
+import Cartwidget from './Cartwidget';
 
 const NavBar = () => {
     return (
@@ -29,8 +29,11 @@ const NavBar = () => {
 
                     </Menu>
                 </nav>
-                <cartwidget/>
-                <div className="CartWidget">Carrito</div>
+                
+                
+                <div className="CartWidgett"><span class="material-symbols-outlined">
+                shopping_cart_checkout
+            </span>8</div>
             </header>
 
             {/* body */}
