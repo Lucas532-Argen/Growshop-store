@@ -36,11 +36,7 @@ const NavBar = () => {
             </span>8</div>
             </header>
 
-            {/* body */}
-            <div className="listcontainer">
-                <h1 className="welcome-message"></h1>
-                {/* lista de productos */}
-            </div>
+            
         </div>
     );
 }
