@@ -1,0 +1,148 @@
+{
+    "productos": [
+        {
+            "id": 1,
+            "titulo": "Marihuna Sativa Premium",
+            "descripcion": "Variedad de marihuana sativa de alta calidad con efectos energizantes y creativos.",
+            "categoria": "Sativa",
+            "imagen": "https://tse2.mm.bing.net/th?id=OIP.fSubuawsj6T3gtoQj0mF8AHaFB&pid=Api&P=0&h=180",
+            "precio": 30.99,
+            "stock": 100
+        },
+        {
+            "id": 2,
+            "titulo": "Marihuna Indica Relajante",
+            "descripcion": "Marihuna Indica de gran potencia que proporciona una profunda relajación y alivio del estrés.",
+            "categoria": "Indica",
+            "imagen": "https://www.semillas-de-marihuana.com/blog/wp-content/uploads/2020/07/orangesherbet.jpg",
+            "precio": 35.99,
+            "stock": 75
+        },
+        {
+            "id": 3,
+            "titulo": "Híbrido Equilibrado",
+            "descripcion": "Una mezcla equilibrada de marihuana Sativa e Indica que ofrece lo mejor de ambos mundos.",
+            "categoria": "Híbrido",
+            "imagen": "https://tse1.mm.bing.net/th?id=OIP.iFeRt3spSNc1FTxjORqLJAHaE8&pid=Api&P=0&h=180",
+            "precio": 40.99,
+            "stock": 50
+        },
+        {
+            "id": 4,
+            "titulo": "Aceite de CBD",
+            "descripcion": "Aceite de marihuana con alto contenido de CBD, ideal para aliviar dolores y molestias.",
+            "categoria": "CBD",
+            "imagen": "https://tse3.mm.bing.net/th?id=OIP._mK824pztCtJ399GtV20_wHaHa&pid=Api&P=0&h=180",
+            "precio": 25.99,
+            "stock": 120
+        },
+        {
+            "id": 5,
+            "titulo": "Marihuna OG Kush",
+            "descripcion": "Una variedad clásica de marihuana Indica dominante con un aroma terroso y relajante.",
+            "categoria": "Indica",
+            "imagen": "https://herbiesheadshop.com/resized/origin/front/70/og_kush_marijuana__JGDXJGyhAHCUIst3.jpg",
+            "precio": 32.99,
+            "stock": 60
+        },
+        {
+            "id": 6,
+            "titulo": "Marihuna Blue Dream",
+            "descripcion": "Una popular cepa de marihuana sativa con efectos eufóricos y un sabor afrutado.",
+            "categoria": "Sativa",
+            "imagen": "https://herbiesheadshop.com/resized/origin/front/47/Blue_Dream_auto_marihuana__ANkrZLlDAgmqs2Ld.jpg",
+            "precio": 28.99,
+            "stock": 80
+        },
+        {
+            "id": 7,
+            "titulo": "Marihuna Gorilla Glue #4",
+            "descripcion": "Una potente marihuana híbrida conocida por su alta concentración de THC y efectos relajantes.",
+            "categoria": "Híbrido",
+            "imagen": "https://es.herbiesheadshop.com/resized/origin/common/79/gorilla-glue-4-marijuana__4fWSD1ELY2oPTQZV.jpg",
+            "precio": 37.99,
+            "stock": 45
+        },
+        {
+            "id": 8,
+            "titulo": "Aceite de CBD de espectro completo",
+            "descripcion": "Aceite de marihuana de espectro completo con una amplia gama de cannabinoides beneficiosos.",
+            "categoria": "CBD",
+            "imagen": "https://tse2.mm.bing.net/th?id=OIP.O2xg7V_CXG4oh9EYp9ijrQHaHa&pid=Api&P=0&h=180",
+            "precio": 27.99,
+            "stock": 90
+        },
+        {
+            "id": 9,
+            "titulo": "Aceite de CBD para Alivio del Dolor",
+            "descripcion": "Aceite de marihuana con alto contenido de CBD, formulado específicamente para aliviar el dolor crónico.",
+            "categoria": "CBD",
+            "imagen": "https://cdn.shopify.com/s/files/1/1322/3005/products/SatividaBox_bottle_10_2048x.jpg?v=1517577672",
+            "precio": 29.99,
+            "stock": 55
+        },
+        {
+            "id": 10,
+            "titulo": "Aceite de THC Concentrado",
+            "descripcion": "Aceite de marihuana altamente concentrado en THC, ideal para usuarios experimentados en busca de efectos intensos.",
+            "categoria": "THC",
+            "imagen": "https://cbdonlinemx.com/wp-content/uploads/2022/03/PSX_20220322_144534.jpg",
+            "precio": 39.99,
+            "stock": 30
+        },
+        {
+            "id": 11,
+            "titulo": "Aceite de CBD de Uso Diario",
+            "descripcion": "Aceite de marihuana con CBD de espectro completo para un uso diario y bienestar general.",
+            "categoria": "CBD",
+            "imagen": "https://cdn.shopify.com/s/files/1/1322/3005/products/Aceite_de_CBD_15_por_ciento_Sativida_800x.jpg?v=1517577866",
+            "precio": 24.99,
+            "stock": 70
+        },
+        {
+            "id": 12,
+            "titulo": "Aceite de THC para Relajación",
+            "descripcion": "Aceite de marihuana con THC moderado para relajación y disfrute recreativo.",
+            "categoria": "THC",
+            "imagen": "https://tse3.mm.bing.net/th?id=OIP.fAEgZE6hAGLKjLXsm4al5AHaHa&pid=Api&P=0&h=180",
+            "precio": 34.99,
+            "stock": 40
+        },
+        {
+            "id": 13,
+            "titulo": "Fertilizante Orgánico para Marihuana",
+            "descripcion": "Fertilizante orgánico de alta calidad, formulado específicamente para el cultivo de marihuana. Promueve un crecimiento saludable y floración abundante.",
+            "categoria": "Fertilizantes",
+            "imagen": "https://tse2.mm.bing.net/th?id=OIP.EtB46ENLR85mFU__rBlfiAHaHa&pid=Api&P=0&h=180",
+            "precio": 19.99,
+            "stock": 100
+        },
+        {
+            "id": 14,
+            "titulo": "Fertilizante NPK para Crecimiento",
+            "descripcion": "Fertilizante NPK equilibrado para la fase de crecimiento de las plantas de marihuana. Proporciona los nutrientes esenciales para un desarrollo vigoroso.",
+            "categoria": "Fertilizantes",
+            "imagen": "https://www.cactusmartorell.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/b/i/bionova_npk.jpg",
+            "precio": 17.99,
+            "stock": 80
+        },
+        {
+            "id": 15,
+            "titulo": "Fertilizante NPK para Floración",
+            "descripcion": "Fertilizante NPK específico para la fase de floración de las plantas de marihuana. Estimula la producción de cogollos densos y resinosos.",
+            "categoria": "Fertilizantes",
+            "imagen": "https://tse3.mm.bing.net/th?id=OIP.5a5-NprjLgsj4u9TGr5yzQHaHa&pid=Api&P=0&h=180",
+            "precio": 18.99,
+            "stock": 75
+        },
+        {
+            "id": 16,
+            "titulo": "Fertilizante Líquido de Microelementos",
+            "descripcion": "Fertilizante líquido enriquecido con microelementos esenciales para el crecimiento óptimo de las plantas de marihuana.",
+            "categoria": "Fertilizantes",
+            "imagen": "https://i1.wp.com/www.elalquimistagrow.com/wp-content/uploads/2018/08/myr-pk.jpg?fit=900%2C900&ssl=1",
+            "precio": 21.99,
+            "stock": 90
+        }
+    ]
+}

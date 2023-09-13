@@ -1,44 +1,60 @@
-import React from 'react';
-import {
-    Menu,
-    MenuButton,
-    MenuList,
-    MenuItem,
-} from '@chakra-ui/react';
-import Cartwidget from './CartWidget';
+import { Menu, MenuButton, Button, MenuList, MenuItem } from '@chakra-ui/react'
+import { ChevronDownIcon } from '@chakra-ui/icons'
+import CartWidget from './CartWidget'
+import imgLogo from '../assets/iconLogo.png'
+import { Link } from 'react-router-dom'
 
 const NavBar = () => {
     return (
-        <div className="container">
-            {/* header */}
-            <header className="header">
-                <div className="brand">
-                    <h3>Mi GrowShop</h3> </div>
-                <nav className="navbar">
-                    <Menu>
-                        <MenuButton className="navbar-button">
-                            Productos
-                        </MenuButton>
-                        <MenuList className="menu-list">
-                            <MenuItem className="menu-item">Plantas</MenuItem>
-                            <MenuItem className="menu-item">Semillas</MenuItem>
-                            <MenuItem className="menu-item">Carpas</MenuItem>
-                            <MenuItem className="menu-item">Luces</MenuItem>
-                        </MenuList>
+        <div className="ContainerNavBar" >
+            <div className='navbar-home'>
+                <Link to={"/"}>
+                    <img className="imgLogo" title='Home' src={imgLogo} alt="Logo" />
+                </Link>
+            </div>
+            <Menu >
+                <MenuButton as={Button} rightIcon={<ChevronDownIcon />}>
+                    Category
+                </MenuButton>
+                <MenuList >
 
-
-                    </Menu>
-                </nav>
-                
-                
-                <div className="CartWidgett"><Cartwidget/><span class="material-symbols-outlined">
-                shopping_cart_checkout
-            </span>8</div>
-            </header>
-
-            
+                    <MenuItem >
+                        <Link to={`/category/${'CBD'}`}>
+                            CBD
+                        </Link>
+                    </MenuItem>
+                    <MenuItem >
+                        <Link to={`/category/${'THC'}`}>
+                            THC
+                        </Link>
+                    </MenuItem>
+                    <MenuItem >
+                        <Link to={`/category/${'Híbrido'}`}>
+                            Híbrido
+                        </Link>
+                    </MenuItem>
+                    <MenuItem >
+                        <Link to={`/category/${'Indica'}`}>
+                            Indica
+                        </Link>
+                    </MenuItem>
+                    <MenuItem >
+                        <Link to={`/category/${'Sativa'}`}>
+                            Sativa
+                        </Link>
+                    </MenuItem>
+                    <MenuItem >
+                        <Link to={`/category/${'Fertilizantes'}`}>
+                            Fertilizantes
+                        </Link>
+                    </MenuItem>
+                </MenuList>
+            </Menu>
+            <Link to={"/Cart"}>
+                <CartWidget />
+            </Link>
         </div>
-    );
+    )
 }
 
-export default NavBar;
+export default NavBar

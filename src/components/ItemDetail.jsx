@@ -1,43 +1,61 @@
-import { useContext, useState } from "react";
-import { toCapital } from "../helpers/toCapital"
-import ItemCount from "./ItemCount"
-import { CartContext } from "../context/CartContext";
+import React, {useState, useContext } from 'react'
+import { Card, Image, CardBody, CardFooter, Stack, Heading, Button, Text } from '@chakra-ui/react'
+import ItemCount from './ItemCount'
+import { Link } from 'react-router-dom'
+import { CartContext } from '../context/ShoppingCartContext'
 
-
-const ItemDetail = ( {item} ) => {
-
-    const { carrito, agregarAlCarrito } = useContext(CartContext);
-    console.log(carrito);
-
-    const [cantidad, setCantidad] = useState(1);
-
-    const handleRestar = () => {
-        cantidad > 1 && setCantidad(cantidad - 1)
-    }
-
-    const handleSumar = () => {
-        cantidad < item.stock && setCantidad(cantidad + 1)
-    }
-
+const ItemDetail = ({ products }) => {
+  const [quantityAdded, setQuantityAdded] = useState(false)
+  const {addItem} = useContext(CartContext)
+  
+  const onAdd = (quantity) => {
+    addItem(products,quantity)
+    setQuantityAdded(true)
+  }
+  
   return (
-    <div className="container">
-        <div className="producto-detalle">
-            <img src={item.imagen} alt={item.titulo} />
-            <div>
-                <h3 className="titulo">{item.titulo}</h3>
-                <p className="descripcion">{item.descripcion}</p>
-                <p className="categoria">Categoría: {toCapital(item.categoria)}</p>
-                <p className="precio">${item.precio}</p>
-                <ItemCount
-                  cantidad={cantidad}
-                  handleSumar={handleSumar}
-                  handleRestar={handleRestar}
-                  handleAgregar={() => { agregarAlCarrito(item, cantidad) }}
-                />
-            </div>
+    <div>
+        <div key={products.id}>
+          <Card
+            direction={{ base: 'column', sm: 'row' }}
+            overflow='hidden'
+            variant='outline'>
+            <Image
+              objectFit='cover'
+              maxW={{ base: '100%', sm: '150px' }}
+              src={products.image}
+              alt={products.name}
+            />
+            <Stack>
+              <CardBody>
+                <Heading size='md'>{products.name}</Heading>
+                <Text py='2'>
+                  {products.description}
+                </Text>
+              </CardBody>
+              <CardFooter>
+              {
+                !quantityAdded
+                  ? <ItemCount initial={1} stock={products.stock} onAdd={onAdd} />
+                  : <Link to={"/cart"}>
+                    <Button variant='solid' colorScheme='blue' size='md'>
+                      Go to the Cart
+                    </Button> 
+                  </Link>   
+              }
+              </CardFooter>
+            </Stack>
+          </Card>
+          <div className='cart-return'>
+              <Link to={"/"}>
+                    <Button variant='solid' colorScheme='blue' size='md'>
+                      Return
+                    </Button>
+                </Link>
+          </div>
         </div>
     </div>
   )
 }
 
-export default ItemDetail
+export default React.memo(ItemDetail)

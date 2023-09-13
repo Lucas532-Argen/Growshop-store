@@ -1,0 +1,117 @@
+*{
+    margin: 8px;
+    padding: 0% ;
+}
+.ContainerNavBar{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(233, 232, 232);
+    border-radius: 8px;
+}
+.navbar-home{
+    display: inline-block;
+    
+}
+.CartWidget {
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.imgCarrito, .imgLogo{
+    width: 30px;
+    height: 30px;
+}
+.greeting {
+    display: flex;
+    justify-content: center;
+}
+
+.itemListContainer{
+   
+    margin: 30px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.itemList{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.itemDetailContainer{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.img-Card{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    object-fit: contain;
+}
+.button-itemdetail {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+.itemCount{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.home{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+.spinner{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+.Cart-container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.cartItem{
+    width: 750px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.cartItem img{
+    width: 150px;
+    height: 150px;
+}
+.cart-finalamount {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 20px;
+  
+}
+.cart-return{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+.form-container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: aliceblue;
+}
