@@ -1,5 +1,5 @@
 import React, { useState, useEffect }  from 'react'
-import ItemListContainer from './components/ItemListContainer'
+import ItemListContainer from './ItemListContainer'
 import Loading from './Loading'
 
 const Home = () => {

@@ -9,7 +9,7 @@ const ItemDetailContainer = () => {
 
   useEffect(() =>{  
     const db = getFirestore()
-    const productsCollection = collection(db, "phones" )
+    const productsCollection = collection(db, "products" )
     const referDoc = doc(productsCollection, id)
     getDoc(referDoc)
     .then((res)=>

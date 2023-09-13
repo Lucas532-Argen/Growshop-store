@@ -9,7 +9,7 @@ const ItemListContainer = () => {
 
   useEffect(() => {
   const db = getFirestore()
-  const itemsCollection = collection(db, "phones")
+  const itemsCollection = collection(db, "products")
   getDocs(itemsCollection).then((snapshot) => {
   const docs = snapshot.docs.map((doc) =>
    ({id: doc.id, ...doc.data()}))
