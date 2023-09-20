@@ -1,21 +1,21 @@
 import { Card, CardBody, CardFooter,Text, Heading, Image, Button, Stack, Divider, ButtonGroup } from '@chakra-ui/react';
 import { Link } from 'react-router-dom'
 
-const Item = ({name, description, price, image, id }) => {
+const Item = ({titulo, descripcion, precio, imagen, id }) => {
   return (
       <>
           <Card maxW='sm'>
               <CardBody key={id}>
                   <Image className='img-Card'
-                      src={image}
-                      alt='image movil'
+                      src={imagen}
+                      alt='image product'
                       borderRadius='lg'
                   />
                   <Stack mt='6' spacing='3'>
-                      <Heading size='md'>{name}</Heading>
-                      <Text>{description}</Text>
+                      <Heading size='md'>{titulo}</Heading>
+                      <Text>{descripcion}</Text>
                       <Text color='blue.600' fontSize='2xl'>
-                      $USD {price}
+                      $USD {precio}
                       </Text>
                   </Stack>
               </CardBody>

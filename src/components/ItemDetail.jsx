@@ -23,14 +23,14 @@ const ItemDetail = ({ products }) => {
             <Image
               objectFit='cover'
               maxW={{ base: '100%', sm: '150px' }}
-              src={products.image}
-              alt={products.name}
+              src={products.imagen}
+              alt={products.titulo}
             />
             <Stack>
               <CardBody>
-                <Heading size='md'>{products.name}</Heading>
+                <Heading size='md'>{products.titulo}</Heading>
                 <Text py='2'>
-                  {products.description}
+                  {products.descripcion}
                 </Text>
               </CardBody>
               <CardFooter>

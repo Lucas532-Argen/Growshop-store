@@ -19,32 +19,32 @@ const NavBar = () => {
                 <MenuList >
 
                     <MenuItem >
-                        <Link to={`/category/${'CBD'}`}>
+                        <Link to={`/categoria/${'CBD'}`}>
                             CBD
                         </Link>
                     </MenuItem>
                     <MenuItem >
-                        <Link to={`/category/${'THC'}`}>
+                        <Link to={`/categoria/${'THC'}`}>
                             THC
                         </Link>
                     </MenuItem>
                     <MenuItem >
-                        <Link to={`/category/${'Híbrido'}`}>
+                        <Link to={`/categoria/${'Híbrido'}`}>
                             Híbrido
                         </Link>
                     </MenuItem>
                     <MenuItem >
-                        <Link to={`/category/${'Indica'}`}>
+                        <Link to={`/categoria/${'Indica'}`}>
                             Indica
                         </Link>
                     </MenuItem>
                     <MenuItem >
-                        <Link to={`/category/${'Sativa'}`}>
+                        <Link to={`/categoria/${'Sativa'}`}>
                             Sativa
                         </Link>
                     </MenuItem>
                     <MenuItem >
-                        <Link to={`/category/${'Fertilizantes'}`}>
+                        <Link to={`/categoria/${'Fertilizantes'}`}>
                             Fertilizantes
                         </Link>
                     </MenuItem>

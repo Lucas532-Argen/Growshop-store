@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom'
 import {collection, getDocs, getFirestore} from 'firebase/firestore'
 
 const ItemListContainer = () => {
-  const {category} = useParams()
+  const {categoria} = useParams()
   const [products, setProducts] = useState([])
 
   useEffect(() => {
@@ -17,11 +17,11 @@ const ItemListContainer = () => {
   })
   },[] )
  
-  const filteredProducts = products.filter((prod) => prod.category === category)
+  const filteredProducts = products.filter((prod) => prod.categoria === categoria)
   
   return (
       <div className='itemListContainer'>
-        { category ? <ItemList products={filteredProducts}/> : <ItemList products={products} />}
+        { categoria ? <ItemList products={filteredProducts}/> : <ItemList products={products} />}
       </div>
   )
 }
