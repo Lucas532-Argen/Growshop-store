@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import { CartContext } from '../context/ShoppingCartContext'
 
 const Cart = () => {
-  const { cart, clear, total } = useContext(CartContext)
+  const { cart, clear, total, } = useContext(CartContext)
   return (
     <>
       {cart.length
