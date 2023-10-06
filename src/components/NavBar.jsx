@@ -3,6 +3,7 @@ import { ChevronDownIcon } from '@chakra-ui/icons'
 import CartWidget from './CartWidget'
 import imgLogo from '../assets/iconLogo.png'
 import { Link } from 'react-router-dom'
+import Cart from './Cart'
 
 const NavBar = () => {
     return (
@@ -56,5 +57,6 @@ const NavBar = () => {
         </div>
     )
 }
+
 
 export default NavBar
