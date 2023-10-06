@@ -13,4 +13,4 @@ Se configura en App.js el routing usando un BrowserRouter y navegacion a una rut
 Conectado a servicios de google Firebase
 
 Se aporta el link del gif:
-**
+https://www.canva.com/design/DAFwcRic1kY/cR2ApwL6uFBemv0XK5rGaA/watch?utm_content=DAFwcRic1kY&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink**
