@@ -1,8 +1,16 @@
-# React + Vite
+Alumno Lucas Armaretti
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Se realiza la entega final del proyecto de un e-commerce. Es un Grow Shop (tienda online para comprar productos Canabicos para cultivar y plantas). 
+Componentes:
+Navbar
+Catálogo
+Detalle de producto
+CartContext
+CartWidget
+Checkout
+Se incorporo la libreria de Chakra-ui. Se implemento estilos desde CSS
+Se configura en App.js el routing usando un BrowserRouter y navegacion a una ruta con parametros.
+Conectado a servicios de google Firebase
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Se aporta el link del gif:
+**
